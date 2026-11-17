@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+paket/_cikti/
+paket/_derleme/
+*.zip
+GELISTIRICI_NOTLARI.md

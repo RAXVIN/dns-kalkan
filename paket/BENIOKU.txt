@@ -1,0 +1,48 @@
+==============================================================
+  DNS KALKAN v2.1  -  (c) 2026 WESAR
+  Discord ve engelli siteler icin akilli tunel
+==============================================================
+
+KURULUM GEREKMEZ
+  1. Bu klasoru istedigin bir yere cikar (ornek: Masaustu).
+     Zip'in icinden calistirma, once "Tumunu ayikla" de.
+  2. "DNS Kalkan.exe" dosyasina cift tikla.
+     Windows "bilgisayarinizi korudu" derse:
+     "Ek bilgi" -> "Yine de calistir".
+  3. Ortadaki buyuk guc dugmesine bas. Yesil "Korumali" yazisi
+     gorundugunde hazirsin. Discord kendiliginden acilir.
+
+KULLANIM
+  - Discord'u her zaman uygulamanin "Discord'u tunelle baslat"
+    dugmesiyle (veya otomatik baslatmayla) ac. Masaustu
+    kisayolundan acarsan guncelleyicide takilir.
+  - Tarayicida (Chrome, Edge, Opera, Firefox) discord.com
+    dogrudan acilir.
+  - Baska engelli siteler eklemek icin "Siteler" sekmesine
+    adresi yaz ve Enter'a bas. Silmek icin satirdaki X'e tikla.
+  - Calisip calismadigini gormek icin "Test" sekmesinde
+    "Testi calistir"a bas. "Discord tuneli" satirinda yesil
+    tik gormelisin.
+  - Kapatmak icin dugmeye tekrar bas veya pencereyi kapat.
+    Windows ayarlarin otomatik olarak eski haline doner.
+
+NE YAPAR, NE YAPMAZ
+  - Yonetici izni istemez. Sistem DNS ayarlarina dokunmaz.
+  - Sadece listedeki siteler tunelden gecer. Oyunlar ve diger
+    her sey dogrudan gider; ping degismez.
+  - Opera GX'in kendi VPN'i aciksa kapat (ayni anda calismaz).
+  - Engel IP duzeyindeyse (cok nadir) VPN gerekir.
+
+SORUN OLURSA
+  - Internet garip davranirsa "kurtarma.bat" dosyasini cift
+    tikla; tum ayarlari eski haline getirir.
+  - Uygulama aciliken bilgisayar kapanirsa, bir sonraki
+    acilista ayarlar zaten kendiliginden duzelir.
+
+KALDIRMA
+  Uygulamayi kapat, klasoru sil. Istersen ayar klasorunu da sil:
+  %APPDATA%\DNSKalkan
+
+--------------------------------------------------------------
+  crafted by  W E S A R
+--------------------------------------------------------------
