@@ -1,5 +1,5 @@
-﻿# DNS Kalkan simgesi (c) 2026 WESAR
-# Mor-turkuaz degrade kalkan + koyu iç kalkan + parlayan "W". Her boyut ayrı çizilir (net görünüm için).
+﻿# DNS Kalkan simgesi (c) 2026 RAXVIN
+# Mor-turkuaz degrade kalkan + koyu iç kalkan + parlayan "R". Her boyut ayrı çizilir (net görünüm için).
 Add-Type -AssemblyName System.Drawing
 $dir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $out = Join-Path $dir "simge"
@@ -63,14 +63,14 @@ foreach ($s in 16, 20, 24, 32, 40, 48, 64, 96, 128, 256) {
         $g.SetClip($inner); $g.FillRectangle($hl, $ix, $iy, $iw, [float]($ih * 0.45)); $g.ResetClip(); $hl.Dispose()
     }
 
-    # "W"
+    # "R"
     $fs = [float]($ih * 0.58)
     $font = New-Object Drawing.Font("Segoe UI Black", $fs, [Drawing.FontStyle]::Bold, [Drawing.GraphicsUnit]::Pixel)
     $fmt = New-Object Drawing.StringFormat
     $fmt.Alignment = [Drawing.StringAlignment]::Center; $fmt.LineAlignment = [Drawing.StringAlignment]::Center
     $tr = New-Object Drawing.RectangleF($ix, ($iy + $ih * 0.02), $iw, ($ih * 0.86))
     $tp = New-Object Drawing.Drawing2D.GraphicsPath
-    $tp.AddString("W", $font.FontFamily, [int][Drawing.FontStyle]::Bold, $fs, $tr, $fmt)
+    $tp.AddString("R", $font.FontFamily, [int][Drawing.FontStyle]::Bold, $fs, $tr, $fmt)
     if ($big) {  # harf parıltısı
         foreach ($i in 3, 2, 1) {
             $gpen = New-Object Drawing.Pen([Drawing.Color]::FromArgb(40, 34, 211, 238), [float]($s * 0.014 * $i))

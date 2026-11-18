@@ -1,5 +1,5 @@
 @echo off
-REM DNS Kalkan (c) 2026 Wesar
+REM DNS Kalkan (c) 2026 Raxvin
 REM Python'u Microsoft Store kisayolu yerine dogrudan kendi klasorunden baslatir.
 set "PYW="
 for /d %%D in ("%LOCALAPPDATA%\Python\pythoncore-3*") do if exist "%%D\pythonw.exe" set "PYW=%%D\pythonw.exe"

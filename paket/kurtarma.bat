@@ -1,5 +1,5 @@
 @echo off
-REM DNS Kalkan kurtarma (c) 2026 WESAR
+REM DNS Kalkan kurtarma (c) 2026 RAXVIN
 REM Bir sorun olursa bunu cift tikla: Windows proxy ayarlarini DNS Kalkan'dan onceki haline dondurur.
 taskkill /f /im "DNS Kalkan.exe" >nul 2>&1
 "%~dp0DNS Kalkan.exe" --restore

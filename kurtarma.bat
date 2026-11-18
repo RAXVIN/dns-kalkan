@@ -1,5 +1,5 @@
 @echo off
-REM DNS Kalkan kurtarma (c) 2026 Wesar
+REM DNS Kalkan kurtarma (c) 2026 Raxvin
 REM Uygulama acilmiyorsa ve bir sorun oldugunu dusunuyorsan bunu cift tikla.
 REM Windows proxy ayarlarini DNS Kalkan'dan onceki haline dondurur.
 set "PY="

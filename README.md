@@ -6,7 +6,7 @@
 
 **Discord ve engelli siteler için tek tıkla akıllı tünel — Windows 10 / 11**
 
-[![İndir](https://img.shields.io/github/v/release/wesar000/dns-kalkan?label=%C4%B0ndir&style=for-the-badge&color=8b5cf6)](https://github.com/wesar000/dns-kalkan/releases/latest)
+[![İndir](https://img.shields.io/github/v/release/raxvin/dns-kalkan?label=%C4%B0ndir&style=for-the-badge&color=8b5cf6)](https://github.com/raxvin/dns-kalkan/releases/latest)
 &nbsp;
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-22d3ee?style=for-the-badge)
 &nbsp;
@@ -22,7 +22,7 @@
 
 ## İndir ve çalıştır
 
-1. **[Releases](https://github.com/wesar000/dns-kalkan/releases/latest)** sayfasından `DNS_Kalkan_v2.1_WESAR.zip` dosyasını indir.
+1. **[Releases](https://github.com/raxvin/dns-kalkan/releases/latest)** sayfasından `DNS_Kalkan_v2.1_RAXVIN.zip` dosyasını indir.
 2. Zip'i bir klasöre çıkar (sağ tık → **Tümünü ayıkla**).
 3. **`DNS Kalkan.exe`**'ye çift tıkla. Python veya başka bir kurulum gerekmez.
    - Windows "bilgisayarınızı korudu" derse: **Ek bilgi → Yine de çalıştır**. Program dijital imzalı olmadığı için yeni programlarda bu uyarı olağandır. Kaynak kodun tamamı bu depoda.
@@ -112,4 +112,4 @@ DNS Kalkan; kişisel kullanım, gizlilik ve erişim amacıyla yapılmış açık
 
 ---
 
-<div align="center"><sub>© 2026 <b>WESAR</b></sub></div>
+<div align="center"><sub>© 2026 <b>RAXVIN</b></sub></div>

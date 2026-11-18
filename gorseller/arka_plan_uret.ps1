@@ -1,4 +1,4 @@
-# DNS Kalkan (c) 2026 Wesar
+# DNS Kalkan (c) 2026 Raxvin
 # arka_plan_orijinal.png dosyasından, her ekran ölçeği için pencereye uygun
 # karartılmış arka plan görselleri üretir (arka_plan@100.png, @125, @150, @175, @200).
 # Başka bir görsel kullanmak istersen arka_plan_orijinal.png'yi değiştirip bu betiği çalıştır.

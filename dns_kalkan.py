@@ -1,5 +1,5 @@
 """
-DNS Kalkan v2  -  (c) 2026 Wesar
+DNS Kalkan v2  -  (c) 2026 Raxvin
 
 Discord ve seçtiğin engelli siteler için kişisel, hafif erişim aracı (Windows 10/11).
 
@@ -38,7 +38,7 @@ from urllib.parse import urlsplit
 
 APP_NAME = "DNS Kalkan"
 VERSION = "2.1"
-AUTHOR = "Wesar"
+AUTHOR = "Raxvin"
 
 APP_DIR = os.path.join(os.environ.get("APPDATA", os.path.expanduser("~")), "DNSKalkan")
 CONFIG_PATH = os.path.join(APP_DIR, "ayarlar.json")
@@ -785,7 +785,7 @@ def run_gui():
     except Exception:
         pass
     try:  # görev çubuğunda Python yerine kendi simgemiz görünsün
-        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("WESAR.DNSKalkan")
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("RAXVIN.DNSKalkan")
     except Exception:
         pass
 
@@ -809,7 +809,7 @@ def run_gui():
         return (FD if display else FT, size, weight)
 
     W, H = px(440), px(738)
-    root.title(f"DNS Kalkan — WESAR")
+    root.title(f"DNS Kalkan — RAXVIN")
     root.configure(bg=BG)
     root.resizable(False, False)
     root.minsize(W, H)
@@ -817,7 +817,7 @@ def run_gui():
     sw, sh = root.winfo_screenwidth(), root.winfo_screenheight()
     root.geometry(f"{W}x{H}+{max(0, (sw - W) // 2)}+{max(0, (sh - px(48) - H - px(32)) // 2)}")
 
-    # pencere ve görev çubuğu simgesi (WESAR kalkanı)
+    # pencere ve görev çubuğu simgesi (RAXVIN kalkanı)
     gdir = os.path.join(RES_DIR, "gorseller")
     try:
         root.iconbitmap(default=os.path.join(gdir, "simge.ico"))
@@ -924,9 +924,9 @@ def run_gui():
         root._logo = tk.PhotoImage(file=os.path.join(gdir, "simge", f"simge_{lsize}.png"))
         top.create_image(sx, sy, anchor="nw", image=root._logo)
     except Exception:
-        top.create_text(sx + s / 2, sy + s / 2, text="W", fill=VIOLET_H, font=F(16, "bold", True))
+        top.create_text(sx + s / 2, sy + s / 2, text="R", fill=VIOLET_H, font=F(16, "bold", True))
     top.create_text(sx + s + px(8), px(24), text="DNS Kalkan", anchor="w", fill=TEXT, font=F(15, "bold", True))
-    top.create_text(sx + s + px(9), px(44), text="by W E S A R", anchor="w", fill=VIOLET_H, font=F(7, "bold"))
+    top.create_text(sx + s + px(9), px(44), text="by R A X V I N", anchor="w", fill=VIOLET_H, font=F(7, "bold"))
     pill_bg = rrect(top, W - px(140), px(18), W - px(18), px(44), px(13), fill="#2a1520", outline="")
     pill_t = top.create_text(W - px(79), px(31), text="●  KORUMASIZ", fill=RED, font=F(8, "bold"))
 
@@ -1225,7 +1225,7 @@ def run_gui():
                          fill=_blend(_blend(VIOLET, CYAN, i / seg), BG, t * 0.75))
     foot.create_text(MX, FY + px(28), text=f"v{VERSION}  ·  © 2026", anchor="w", fill=DIM, font=F(8))
     sig_font = tkfont.Font(family=FD, size=13, weight="bold")
-    letters = "WESAR"
+    letters = "RAXVIN"
     gap = px(5)
     widths = [sig_font.measure(ch) for ch in letters]
     total = sum(widths) + gap * (len(letters) - 1)

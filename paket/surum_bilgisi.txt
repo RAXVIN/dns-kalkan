@@ -12,11 +12,11 @@ VSVersionInfo(
   kids=[
     StringFileInfo([
       StringTable('041F04B0', [
-        StringStruct('CompanyName', 'WESAR'),
+        StringStruct('CompanyName', 'RAXVIN'),
         StringStruct('FileDescription', 'DNS Kalkan - Discord ve engelli siteler icin akilli tunel'),
         StringStruct('FileVersion', '2.1.0'),
         StringStruct('InternalName', 'DNS Kalkan'),
-        StringStruct('LegalCopyright', '(c) 2026 WESAR'),
+        StringStruct('LegalCopyright', '(c) 2026 RAXVIN'),
         StringStruct('OriginalFilename', 'DNS Kalkan.exe'),
         StringStruct('ProductName', 'DNS Kalkan'),
         StringStruct('ProductVersion', '2.1.0')

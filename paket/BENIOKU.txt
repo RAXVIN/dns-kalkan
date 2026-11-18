@@ -1,5 +1,5 @@
 ==============================================================
-  DNS KALKAN v2.1  -  (c) 2026 WESAR
+  DNS KALKAN v2.1  -  (c) 2026 RAXVIN
   Discord ve engelli siteler icin akilli tunel
 ==============================================================
 

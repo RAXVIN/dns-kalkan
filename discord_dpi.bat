@@ -1,5 +1,5 @@
 @echo off
-REM Discord'u DNS Kalkan tuneliyle baslatir (c) Wesar
+REM Discord'u DNS Kalkan tuneliyle baslatir (c) Raxvin
 REM DNS Kalkan ACIK olmali. Uygulamadaki "Discord'u tunelle baslat" dugmesi de ayni isi yapar.
 taskkill /f /im Discord.exe >nul 2>&1
 timeout /t 2 /nobreak >nul
