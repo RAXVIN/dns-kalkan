@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="gorseller/simge/simge_128.png" width="96" alt="DNS Kalkan simgesi">
+<img src="gorseller/simge/simge_128.png?v=raxvin" width="96" alt="DNS Kalkan simgesi">
 
 # DNS Kalkan
 
@@ -12,7 +12,7 @@
 &nbsp;
 ![Yönetici izni gerekmez](https://img.shields.io/badge/Y%C3%B6netici%20izni-gerekmez-22c55e?style=for-the-badge)
 
-<img src="gorseller/ekran_goruntusu.jpg" width="340" alt="DNS Kalkan ekran görüntüsü">
+<img src="gorseller/ekran_goruntusu.jpg?v=raxvin" width="340" alt="DNS Kalkan ekran görüntüsü">
 
 <sub>crafted by <b>W E S A R</b></sub>
 
